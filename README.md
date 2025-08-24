@@ -10,3 +10,5 @@ The reinforcement learning backbone is a custom PPO implementation with carefull
 An additional innovation was splitting entropy across the different action heads in PPO. Exploration in continuous joystick control, shot power, and the binary finesse toggle needed different weights to avoid over- or under-exploring. By tuning gamma coefficients separately, the agent explored movement more aggressively early on, experimented with power timing moderately, and sampled finesse shots just enough to discover when they were optimal. This entropy design was crucial for stable convergence.
 
 The most exciting outcome was seeing the agent discover real soccer finishing techniques. It learned to use finesse shots across the keeper when the far-post angle was open, to drive powerfully near-post when space was tight, and to slip low shots under the goalkeeper from close range. None of these were hard-coded; they emerged naturally through PPO, vision, and reward shaping. In other words, the bot didn’t just maximize score—it learned how to finish like a striker.
+
+
