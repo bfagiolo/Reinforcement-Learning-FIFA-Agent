@@ -11,7 +11,7 @@ An additional innovation was splitting entropy across the different action heads
 
 The most exciting outcome was seeing the agent discover real soccer finishing techniques. It learned to use finesse shots across the keeper when the far-post angle was open, to drive powerfully near-post when space was tight, and to slip low shots under the goalkeeper from close range. None of these were hard-coded; they emerged naturally through PPO, vision, and reward shaping. In other words, the bot didn’t just maximize score—it learned how to finish like a striker.
 
-Full Demo here: https://youtu.be/GUY7TWwpd3A 
+Full Demo here: https://youtu.be/U7_6yzre4wU
 
 
 <img width="1318" height="601" alt="Screenshot 2025-08-24 at 7 21 02 PM" src="https://github.com/user-attachments/assets/59ee1927-6d8c-48f3-886d-b8384f7a5b34" />
